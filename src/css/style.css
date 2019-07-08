@@ -844,6 +844,29 @@ svg circle{
         width: calc(100% - 6vw);
     }
     
+    .tabs ul {
+        display: flex;
+    }
 
+    .tabs ul li:first-child{
+        border-top:none;
+    }
+
+    .features{
+        width:50%;
+    }
+
+    .tabs{
+        width:60%;
+    }
+
+    .tabs ul li a{
+        padding-left:3rem;
+        padding-right: 3rem;
+    }
+
+    .tabs ul {
+        border-bottom: 1px solid #dfdfdf;
+    }
 
 }
